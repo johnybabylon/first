@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+- (IBAction)pressButton:(id)sender;
 
+@property (weak, nonatomic) IBOutlet UILabel *label;
 
 @end
 

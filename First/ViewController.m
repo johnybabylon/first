@@ -24,4 +24,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)pressButton:(id)sender {
+    _label.text = @"switching labels";
+}
 @end

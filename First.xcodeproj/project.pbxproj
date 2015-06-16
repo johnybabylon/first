@@ -40,6 +40,7 @@
 		29A2D9D81B2FE98900C80C79 /* FirstTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29A2D9DD1B2FE98900C80C79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29A2D9DE1B2FE98900C80C79 /* FirstTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstTests.m; sourceTree = "<group>"; };
+		29A2D9E91B2FEF2F00C80C79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -248,6 +249,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				29A2D9CD1B2FE98900C80C79 /* Base */,
+				29A2D9E91B2FEF2F00C80C79 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -414,6 +416,7 @@
 				29A2D9E41B2FE98900C80C79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		29A2D9E51B2FE98900C80C79 /* Build configuration list for PBXNativeTarget "FirstTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +425,7 @@
 				29A2D9E71B2FE98900C80C79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
